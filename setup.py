@@ -3,6 +3,7 @@
 # error if run.. when the script folder is gotten the app can be run by the
 # command: Python app.py (serves as main app loop)
 
+from flask import Flask
 from app import app
 from db_config import mysql
 from main import appLoop
